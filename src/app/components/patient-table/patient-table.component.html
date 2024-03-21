@@ -1,25 +1,28 @@
 <div class="header-table">
-  <div class="patient header">
+  <div class="patient header" (click)="changeSortCriteria('name')">
     <span>Paciente</span>
     <img src="./assets/sort.png" />
   </div>
-  <div class="status header">
+  <div class="status header" (click)="changeSortCriteria('status')">
     <span>Status</span>
     <img src="./assets/sort.png" />
   </div>
-  <div class="diagnosis header">
+  <div class="diagnosis header" (click)="changeSortCriteria('diagnosis')">
     <span>Diagnóstico</span>
     <img src="./assets/sort.png" />
   </div>
-  <div class="medicine header">
+  <div class="medicine header" (click)="changeSortCriteria('medicine')">
     <span>Medicamento</span>
     <img src="./assets/sort.png" />
   </div>
-  <div class="health-insurance header">
+  <div
+    class="health-insurance header"
+    (click)="changeSortCriteria('health-insurance')"
+  >
     <span>Plano de Saúde</span>
     <img src="./assets/sort.png" />
   </div>
-  <div class="last-request header">
+  <div class="last-request header" (click)="changeSortCriteria('last-request')">
     <span>Última Solicitação</span>
     <img src="./assets/sort.png" />
   </div>
@@ -27,24 +30,24 @@
 </div>
 
 <div *ngFor="let patient of patients" class="table-line">
-  <div class="patient table-line-content">
+  <div class="patient patient-line table-line-content">
     <span>{{ patient.name }}</span>
   </div>
   <div class="status table-line-content">
-    <div class="status-content">
+    <div class="status-line">
       <span>{{ patient.status }}</span>
     </div>
   </div>
-  <div class="diagnosis table-line-content">
+  <div class="diagnosis diagnosis-line table-line-content">
     <span>{{ patient.diagnosis }}</span>
   </div>
-  <div class="medicine table-line-content">
+  <div class="medicine medicine-line table-line-content">
     <span>{{ patient.medicine }}</span>
   </div>
-  <div class="health-insurance table-line-content">
+  <div class="health-insurance health-insurance-line table-line-content">
     <span>{{ patient.healthInsurance }}</span>
   </div>
-  <div class="last-request table-line-content">
+  <div class="last-request last-request-line table-line-content">
     <span>{{ patient.lastRequest }}</span>
   </div>
   <div class="empty table-line-content">
