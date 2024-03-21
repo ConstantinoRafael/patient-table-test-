@@ -1,4 +1,22 @@
-<div class="patients-component">
-  <app-sidebar>teste</app-sidebar>
-  <p>patients workasss!</p>
+<div class="patients-component patient-page">
+  <app-sidebar></app-sidebar>
+  <div class="patient-page">
+    <div>
+      <div>
+        <h1>Pacientes</h1>
+        <div>
+          <input placeholder="Pesquisar" />
+          <img src="./assets/search.png" />
+        </div>
+      </div>
+      <div>
+        <button>
+          <img src="./assets/plus.png" />
+          <span>Cadastrar Pacientes</span>
+        </button>
+        <app-menu-dropdown />
+      </div>
+    </div>
+    <app-patient-table></app-patient-table>
+  </div>
 </div>

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-table {
+  width: 1089px;
+  height: 32px;
+  background-color: #e0e9f8;
+  display: flex;
+  margin-bottom: 12px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.header {
+  gap: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #282e38;
+}
+
+.patient {
+  width: 214px;
+  color: #5b5f82;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.status {
+  width: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.status-content {
+  width: 65px;
+  height: 20px;
+  border-radius: 10px;
+  padding: 6px 16px;
+  gap: 4px;
+  background-color: #caf1d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #22c55e;
+  }
+}
+
+.diagnosis {
+  width: 175px;
+  color: #5b5f82;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.medicine {
+  width: 131px;
+  color: #5b5f82;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.health-insurance {
+  width: 204px;
+  color: #5b5f82;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.last-request {
+  width: 194px;
+  color: #5b5f82;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.empty {
+  width: 82px;
+  display: flex;
+}
+
+.table-line-content {
+  height: 48px;
+  padding: 16px 12px;
+  gap: 10px;
+}
+
+.table-line {
+  display: flex;
+  background-color: #fff;
+  border-radius: 0px 4px 4px 0px;
+  margin-bottom: 6px;
+}

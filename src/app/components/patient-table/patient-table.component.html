@@ -1,0 +1,54 @@
+<div class="header-table">
+  <div class="patient header">
+    <span>Paciente</span>
+    <img src="./assets/sort.png" />
+  </div>
+  <div class="status header">
+    <span>Status</span>
+    <img src="./assets/sort.png" />
+  </div>
+  <div class="diagnosis header">
+    <span>Diagnóstico</span>
+    <img src="./assets/sort.png" />
+  </div>
+  <div class="medicine header">
+    <span>Medicamento</span>
+    <img src="./assets/sort.png" />
+  </div>
+  <div class="health-insurance header">
+    <span>Plano de Saúde</span>
+    <img src="./assets/sort.png" />
+  </div>
+  <div class="last-request header">
+    <span>Última Solicitação</span>
+    <img src="./assets/sort.png" />
+  </div>
+  <div class="empty"></div>
+</div>
+
+<div *ngFor="let patient of patients" class="table-line">
+  <div class="patient table-line-content">
+    <span>{{ patient.name }}</span>
+  </div>
+  <div class="status table-line-content">
+    <div class="status-content">
+      <span>{{ patient.status }}</span>
+    </div>
+  </div>
+  <div class="diagnosis table-line-content">
+    <span>{{ patient.diagnosis }}</span>
+  </div>
+  <div class="medicine table-line-content">
+    <span>{{ patient.medicine }}</span>
+  </div>
+  <div class="health-insurance table-line-content">
+    <span>{{ patient.healthInsurance }}</span>
+  </div>
+  <div class="last-request table-line-content">
+    <span>{{ patient.lastRequest }}</span>
+  </div>
+  <div class="empty table-line-content">
+    <img src="./assets/prescription.png" width="24" height="24" />
+    <img src="./assets/ellipsis-h.png" width="24" height="24" />
+  </div>
+</div>
