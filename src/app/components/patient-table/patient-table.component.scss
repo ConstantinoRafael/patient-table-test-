@@ -23,12 +23,18 @@
 
 .patient {
   width: 214px;
-  color: #5b5f82;
-  font-size: 13px;
-  font-weight: 700;
+  // color: #5b5f82;
+  // font-size: 13px;
+  // font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.patient-line {
+  color: #5b5f82;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .status {
@@ -38,7 +44,7 @@
   justify-content: flex-start;
 }
 
-.status-content {
+.status-line {
   width: 65px;
   height: 20px;
   border-radius: 10px;
@@ -58,44 +64,67 @@
 
 .diagnosis {
   width: 175px;
-  color: #5b5f82;
-  font-size: 12px;
-  font-weight: 400;
+  // color: #5b5f82;
+  // font-size: 12px;
+  // font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.diagnosis-line {
+  color: #5b5f82;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .medicine {
   width: 131px;
-  color: #5b5f82;
-  font-size: 12px;
-  font-weight: 400;
+  // color: #5b5f82;
+  // font-size: 12px;
+  // font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.medicine-line {
+  color: #5b5f82;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .health-insurance {
   width: 204px;
-  color: #5b5f82;
-  font-size: 12px;
-  font-weight: 400;
+  // color: #5b5f82;
+  // font-size: 12px;
+  // font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.health-insurance-line {
+  color: #5b5f82;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .last-request {
   width: 194px;
-  color: #5b5f82;
-  font-size: 12px;
-  font-weight: 400;
+  // color: #5b5f82;
+  // font-size: 12px;
+  // font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
+.last-request-line {
+  color: #5b5f82;
+  font-size: 12px;
+  font-weight: 400;
+}
 .empty {
   width: 82px;
   display: flex;
