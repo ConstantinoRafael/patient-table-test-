@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PATIENTS } from '../patients/mock-patients';
+
 import { NgFor } from '@angular/common';
 import { Patient } from '../patients/patient.model';
 import { PatientTableService } from './patient-table.service';

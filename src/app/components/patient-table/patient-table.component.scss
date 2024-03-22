@@ -26,9 +26,17 @@
   // color: #5b5f82;
   // font-size: 13px;
   // font-weight: 700;
+
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.truncated-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .patient-line {
@@ -141,4 +149,66 @@
   background-color: #fff;
   border-radius: 0px 4px 4px 0px;
   margin-bottom: 6px;
+}
+
+.paginator {
+  width: 1088px;
+  height: 56px;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 0px 0px 4px 4px;
+  padding: 7px 14px;
+  background-color: #fff;
+  color: #6c757d;
+}
+
+.text-paginator {
+  width: 580.46px;
+  height: 42px;
+
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 7px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.img-paginator {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  background-color: #a2a8f4;
+  border-radius: 21px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.patients-per-page {
+  width: 61.5px;
+  height: 38px;
+  color: #495057;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10.5px;
+  gap: 10.5px;
+  border: solid 1px #dadee3;
+  border-radius: 4px;
 }

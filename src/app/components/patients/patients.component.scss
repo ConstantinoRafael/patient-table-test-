@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 .patients-component {
   display: flex;
 
@@ -11,4 +13,41 @@
   width: auto;
   height: auto;
   background-color: #f7f8f9;
+}
+
+.title-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    color: #282e38;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  button {
+    width: 198px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    padding: 10.5px 17.5px;
+    gap: 7px;
+    background-color: #797ef5;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+.input-menu {
+  width: 1088px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

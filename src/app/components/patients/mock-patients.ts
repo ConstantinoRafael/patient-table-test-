@@ -3,7 +3,7 @@ import { Patient } from './patient.model';
 export const PATIENTS: Patient[] = [
   {
     id: 1,
-    name: 'Alberto Flores',
+    name: 'Alberto Flores dos Anjos Martinez',
     status: 'Ativo',
     diagnosis: '-',
     medicine: '-',
