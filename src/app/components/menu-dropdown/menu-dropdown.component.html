@@ -1,8 +1,12 @@
 <div class="menu">
-  <button (click)="toggleDropdown()">Menu</button>
-  <ul *ngIf="isDropdownVisible" class="dropdown">
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-  </ul>
+  <button class="menu-btn" (click)="toggleDropdown()">
+    <p>Pacientes ativos</p>
+    <img src="./assets/chevron-down.png" width="14" height="14" />
+  </button>
+
+  <div class="dropdown-opts" *ngIf="isDropdownVisible" class="dropdown">
+    <div>Ativos</div>
+    <div>Inativos</div>
+    <div>Todos os pacientes</div>
+  </div>
 </div>

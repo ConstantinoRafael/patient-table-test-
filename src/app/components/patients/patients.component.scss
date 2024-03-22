@@ -44,6 +44,25 @@
   }
 }
 
+.search-input {
+  width: 263.27ox;
+  height: 38px;
+  background-color: #fff;
+  border: solid 1px #dadee3;
+  border-radius: 4px;
+  padding: 10.5px;
+  gap: 10.5px;
+
+  input {
+    border: none;
+
+    ::placeholder {
+      color: #64748b;
+      font-size: 14px;
+    }
+  }
+}
+
 .input-menu {
   width: 1088px;
   height: 70px;
